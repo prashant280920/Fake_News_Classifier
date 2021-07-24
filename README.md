@@ -31,8 +31,9 @@ Label 0-> represent News is not fake
 There is something called <b>Porter Stemming Algorithm</b> that is used to remove common morphological words. For more detail about the algorithm you can refer to the [link](http://snowball.tartarus.org/algorithms/porter/stemmer.html)
 
 ## Frequency Vectorizer
-* <b>Tf-idf Vectorizer</b> - TF-IDF stands for “term frequency-inverse document frequency”, meaning the weight assigned to each token not only depends on its frequency in a document but also how recurrent that term is in the entire corpora. More on that here.
-* <b>Count Vectorizer</b> - The most straightforward one, it counts the number of times a token shows up in the document and uses this value as its weight.
+* <b>Tf-idf Vectorizer</b> - TF-IDF stands for “term frequency-inverse document frequency”, meaning the weight assigned to each token not only depends on its frequency in a document but also how recurrent that term is in the entire corpora.
+* <b>Count Vectorizer</b> - The most straightforward one, it counts the number of times a token shows up in the document and uses this value as its weight.<br>
+For more details : [Click Here](https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/)
 
 ## Model
 * We are using three models:
